@@ -1,0 +1,20 @@
+svg{
+    background: #fff;
+}
+svg text{
+    font-size: 5rem;
+    stroke-width: 5px;
+    fill: transparent;
+    stroke: #ff3b63;
+    letter-spacing: 2px;
+    animation: effect 2s infinite alternate;
+}
+@keyframes effect{
+    0%{
+        stroke-dasharray: 0 70%;
+    }
+    100%{
+        stroke-dasharray: 20% 2;
+        stroke-dashoffset: 10%;
+    }
+}
